@@ -112,9 +112,11 @@
 
 <h1>Steps</h1>
 <ol>
-	<li>Find pretty images you want to showcase (for this example we have used 5) and size to fit correctly within your slider</li>
-    <li><a href="http://jquery.malsup.com/cycle2/ target ="_blank"> Download Cycle2 plugin</a></li>
-
+	<li>Find pretty images you want to showcase (for this example we have used 5) and size to fit correctly within your slider.</li>
+    <li><a href="http://jquery.malsup.com/cycle2/" target ="_blank"> Download Cycle2 plugin</a> please follow link.</li>
+    <li>Place downloaded Cycle2 plugin in jquery folder which is connected to your source code and then include the Cycle2 plugin using the scripts tags you have just saved. Please ensure the Cycle2 script tag is placed under the jQuery script tag.</li>
+    <li>Code HTML/CSS. (see below)</li>
+    <li>No JavaScript/jQuery required</li>
 </ol>
 
 </section><!-- end tut-steps -->
@@ -184,6 +186,15 @@
 
 <section class="tut-steps">
 
+<h1>Steps</h1>
+<ol>
+	<li>Find pretty images you want to showcase (for this example we have used 5) and size to fit correctly within your slider.</li>
+    <li><a href="http://jquery.malsup.com/cycle2/" target ="_blank"> Download Cycle2 plugin</a> please follow link.</li>
+    <li>Place downloaded Cycle2 plugin in jquery folder which is connected to your source code and then include the Cycle2 plugin using the scripts tags you have just saved. Please ensure the Cycle2 script tag is placed under the jQuery script tag.</li>
+    <li>Code HTML/CSS. (see below)</li>
+    <li>No JavaScript/jQuery required</li>
+</ol>
+
 </section><!-- end tut-steps -->
 
 
@@ -251,6 +262,15 @@
 </section><!-- end sticky-demo -->
 
 <section class="tut-steps">
+
+<h1>Steps</h1>
+<ol>
+	<li>Find pretty images you want to showcase (for this example we have used 5) and size to fit correctly within your slider.</li>
+    <li><a href="http://jquery.malsup.com/cycle2/" target ="_blank"> Download Cycle2 plugin</a>please follow link.</li>
+    <li>Place downloaded Cycle2 plugin in jquery folder which is connected to your source code and then include the Cycle2 plugin using the scripts tags you have just saved. Please ensure the Cycle2 script tag is placed under the jQuery script tag.</li>
+    <li>Code HTML/CSS. (see below)</li>
+    <li>No JavaScript/jQuery required</li>
+</ol>
 
 </section><!-- end tut-steps -->
 
@@ -345,5 +365,6 @@
 
 <script src="scripts/scripts.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/jquery.cycle2.min.js"></script>
 </body>
 </html>
