@@ -1,14 +1,110 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* home section styles */
+/* general layout */
 
-.home {
+.tutorial {
 	width: 100%;
 	margin: 0 auto;	
 	background-color: #fff5c3;
 }
 
-.inner-header {
-	
+.inner-tut {
+	min-width: 960px;
+	max-width: 1400px;
+	margin: 0 auto;	
 }
+
+/* end general layout */
+
+/* home section styles */
+
+.inner-home {
+	min-width: 960px;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.title-hp h1 {
+	font-family: 'Merriweather', serif;	
+	text-align: center;
+	padding-bottom: 10px;
+	color:#7c786a;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.article-hp {
+	color: #7c786a;	
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+.article-hp p {
+	padding-bottom: 10px;
+}
+
+.article-hp ol {
+	list-style-type: decimal;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.article-hp li {
+	padding-top: 10px;	
+}
+
+.article-hp li a {
+	text-decoration: underline;		
+}
+
+/* tutorial header styles */
+
+.tut-logo {
+	float: left;
+	background-color: #d3e397;
+	color: #7c786a;
+	text-align: center;
+	height: 158px;
+	width: 158px;
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 50px;
+	border: solid 3px #eb6e44;
+}
+
+.tut-title {
+	text-align: center;
+	font-family: 'Merriweather', serif;	
+	color:#7c786a;
+	font-size: 1.8em;
+	padding-top: 55px;
+	font-weight: bold;
+}
+
+.tut-title h1 {
+	padding-bottom: 10px;
+}
+
+/* end tutorial header styles */
+
+
+/* tutorial styles */
+
+.tut-intro {
+	color: #7c786a;	
+	font-size: 1.3em;
+	line-height: 1.2em;
+}
+
+.tut-intro p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* end tutorial styles */
