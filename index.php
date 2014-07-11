@@ -40,9 +40,9 @@
 
 </header>
 
-<main>
-
 <!-- HOME page -->
+
+<main class="home">
 
 <section class="inner-home">
 
