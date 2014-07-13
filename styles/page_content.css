@@ -104,7 +104,6 @@
 
 .tut-intro p {
 	padding-top: 20px;
-	
 }
 
 /* end tutorial styles */
@@ -113,7 +112,7 @@
 
 .tut-steps {
 	padding-bottom: 20px;
-		color: #7c786a;	
+	color: #7c786a;	
 	font-size: 1.3em;
 	line-height: 1.2em;
 	}
@@ -143,9 +142,74 @@
 
 /* end step styles */
 
-/* slider demo styles *.
+/* code-examples */
 
+.code-examples {
+	padding-bottom: 20px;
+	width: 85%;
+	margin: 0 auto;	
+}
+
+.code-examples h1 {
+	color: #7c786a;	
+	font-size: 1.3em;
+	line-height: 1.2em;	
+	font-weight: bold;
+}
+
+.html, .css, .jquery {
+	float: left;
+		width: -moz-calc( (100% / 3) - ((0px * 2) / 3) );
+	width: -webkit-calc( (100% / 3) - ((0px * 2) / 3) );
+	width: calc( (100% / 3) - ((0px * 2) / 3) );
+	text-align: center;
+	
+}
+
+
+/* end code example */
+
+/* slider demo styles */
+
+.slider-demo h1{
+	color: #7c786a;	
+	font-size: 1.8em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;	
+	padding-bottom: 10px;
+}
+	
+
+.cycle-slideshow {
+	padding-bottom: 30px;	
+}
+
+.cycle-slideshow img {
+	display: block;	
+	text-align: center;
+}
 
 
 /* end demo styles */
+
+/* sticky demo styles */
+
+.sticky-demo h1 {
+	color: #7c786a;	
+	font-size: 1.8em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;	
+	padding-bottom: 10px;
+}
+
+.sticky-demo p {
+	color: #7c786a;	
+	font-size: 1.3em;
+	line-height: 1.2em;
+	padding-bottom: 20px;
+}
+	
+/* end sticky demo styles */
 

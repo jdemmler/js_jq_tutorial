@@ -5,25 +5,27 @@
 <title>JS & JQ | Continuous Learning</title>
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
+<link rel="stylesheet" type="text/css" href="styles/animate.min.css">
+<link rel="stylesheet" type="text/css" href="styles/prism.css">
 <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 </head>
 
-<body id="back_top">
+<body id="back-top">
 
-<header>
+<header id="header" class="header">
 <div class="inner-header">
 
-<div class="logo">
+<a href="#back-top"><div class="logo">
 <h1>JavaScript & jQuery</h1>
 
 <div id="infinity-logo"></div>
 
 <h2>Continuous Learning</h2>
 
-</div><!-- end logo -->
+</div></a><!-- end logo -->
 
 <nav>
 	<ul>
@@ -67,15 +69,14 @@
 </section><!-- end inner-home -->
 
 <div class="back">
-<a href="#back-top">
-</a>
+<a href="#back-top">Back</a>
 </div><!-- end back-top -->
 </main><!-- end home -->
 
 <!-- Tutorial 1 -->
 
 <main class="tutorial">
-	<span class="anchor" id="tut1"></span>
+	<div class="anchor scrollto" id="tut1">
 <header>
 <div class="inner-header">
 
@@ -106,6 +107,16 @@
 
 <section class="slider-demo">
 
+<h1>Demo</h1>
+
+<div class="cycle-slideshow">
+    <img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
+    <img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
+    <img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
+    <img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
+    <img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+</div>
+
 </section><!-- end slider-demo -->
 
 <section class="tut-steps">
@@ -113,7 +124,7 @@
 <h1>Steps</h1>
 <ol>
 	<li>Find pretty images you want to showcase (for this example we have used 5) and size to fit correctly within your slider.</li>
-    <li><a href="http://jquery.malsup.com/cycle2/" target ="_blank"> Download Cycle2 plugin</a> please follow link.</li>
+    <li><a href="http://jquery.malsup.com/cycle2/" target ="_blank"> Download Cycle2 plugin</a></li>
     <li>Place downloaded Cycle2 plugin in jquery folder which is connected to your source code and then include the Cycle2 plugin using the scripts tags you have just saved. Please ensure the Cycle2 script tag is placed under the jQuery script tag.</li>
     <li>Code HTML/CSS. (see below)</li>
     <li>No JavaScript/jQuery required</li>
@@ -121,27 +132,42 @@
 
 </section><!-- end tut-steps -->
 
-
 <section class="code-examples">
 
 <article class="html">
-
+<h1>HTML<h1>
+<pre class="language-markup">
+<code>&lt;div class="cycle-slideshow">
+&lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
+    <img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
+    <img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
+    <img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
+    <img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+</div>
+</code></pre>
 </article><!-- end html -->
 
 
-<article calss="css">
-
+<article class="css">
+<h1>CSS</h1>
 </article><!-- end css -->
 
 
 <article class="jquery">
+<h1>jQuery<h1>
+
+
 
 </article><!-- end jquery -->
+
+<div class="clear">
+</div><!-- end clear -->
 
 </section><!-- end code-examples -->
 
 </section><!-- end tut1-section -->
 </div><!-- end inner-tut -->
+</div>
 </main><!-- end tutorial -->
 
 <div class="back">
@@ -152,7 +178,7 @@
 <!-- Tutorial 2 -->
 
 <main class="tutorial">
-<span class="anchor" id="tut2"></span>
+<div class="anchor scrollto" id="tut2">
 <header>
 <div class="inner-header">
 <div class="tut-logo">
@@ -182,6 +208,10 @@
 
 <section class="sticky-demo">
 
+<h1>Demo</h1>
+
+<p>You may have noticed the sticky navigation bar already in use on this site. Please return to the top of the pag and notice as you scroll down the page at a certain point the navigation bar will stick to the top of the page and be visible while you scroll through the site and indicate which section you are on</p>
+
 </section><!-- end sticky-demo -->
 
 <section class="tut-steps">
@@ -201,18 +231,21 @@
 <section class="code-examples">
 
 <article class="html">
-
+<h1>HTML</h1>
 </article><!-- end html -->
 
 
-<article calss="css">
-
+<article class="css">
+<h1>CSS</h1>
 </article><!-- end css -->
 
 
 <article class="jquery">
-
+<h1>jQuery</h1>
 </article><!-- end jquery -->
+
+<div class="clear">
+</div><!-- end clear -->
 
 </section><!-- end code-examples -->
 
@@ -223,13 +256,13 @@
 <a href="#back-top">
 </a>
 </div><!-- end back-top -->
-
+</div><!-- end anchor & scrollto -->
 </main><!-- end tutorial -->
 
 <!-- Tutorial 3 -->
 
 <main class="tutorial">
-<span class="anchor" id="tut3"></span>
+<div class="anchor scrollto" id="tut3">
 <header>
 <div class="inner-header">
 <div class="tut-logo">
@@ -278,18 +311,21 @@
 <section class="code-examples">
 
 <article class="html">
-
+<h1>HTML</h1>
 </article><!-- end html -->
 
 
-<article calss="css">
-
+<article class="css">
+<h1>CSS</h1>
 </article><!-- end css -->
 
 
 <article class="jquery">
-
+<h1>jQuery</h1>
 </article><!-- end jquery -->
+
+<div class="clear">
+</div><!-- end clear -->
 
 </section><!-- end code-examples -->
 
@@ -300,13 +336,13 @@
 <a href="#back-top">
 </a>
 </div><!-- end back-top -->
-
+</div><!-- end anchor & scrollto -->
 </main><!-- end tutorial -->
 
 <!-- Contact -->
 
 <main class="tutorial">
-<span class="anchor" id="contact"></span>
+<div class="anchor scrollto" id="contact">
 <header>
 <div class="inner-header">
 <div class="tut-logo">
@@ -342,7 +378,7 @@
 <a href="#back-top">
 </a>
 </div><!-- end back-top -->
-
+</div><!-- end anchor & scrollto -->
 </main><!-- end tutorial -->
 
 <footer>
@@ -363,8 +399,12 @@
 
 
 
-<script src="scripts/scripts.js"></script>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/jquery.easing.min.js"></script>
+<script src="scripts/jquery.stickyNavbar.min.js"></script>
 <script src="scripts/jquery.cycle2.min.js"></script>
+<script src="scripts/prism.js"></script>
+<script src="scripts/scripts.js"></script>
 </body>
 </html>
