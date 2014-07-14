@@ -157,19 +157,14 @@
 	font-weight: bold;
 }
 
-.html, .css, .jquery {
-	float: left;
-		width: -moz-calc( (100% / 3) - ((0px * 2) / 3) );
-	width: -webkit-calc( (100% / 3) - ((0px * 2) / 3) );
-	width: calc( (100% / 3) - ((0px * 2) / 3) );
-	text-align: center;
-	
-}
-
 
 /* end code example */
 
 /* slider demo styles */
+
+.slider-demo {
+	margin-bottom: 30px;
+}
 
 .slider-demo h1{
 	color: #7c786a;	
@@ -182,14 +177,27 @@
 	
 
 .cycle-slideshow {
-	padding-bottom: 30px;	
+	margin: 0 auto;
+	width: 700PX;
 }
 
-.cycle-slideshow img {
-	display: block;	
-	text-align: center;
-}
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
 
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+    position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	z-index: 600;
+    background: #7c786a;; 
+	color: white; 
+	padding: 15px; 
+	opacity: .7;
+}
 
 /* end demo styles */
 

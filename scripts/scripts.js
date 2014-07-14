@@ -19,4 +19,30 @@ $(function () {
       selector: "a",                // Selector to which activeClass will be added, either "a" or "li"
       mobile: false                 // If false nav will not stick under 480px width of window
   });
-});
+}); 
+
+
+// end sticky header...
+
+
+// accordian code example.....
+
+
+$('.code-examples > pre').hide();
+
+var exampleReveal = $('.code-examples h1');
+ 
+ exampleReveal.click(function() {
+	 if ( $(this).children('span').text() =='+' ) {
+	 $(this).children('span').text('-') 
+	 
+	}else{
+	 $(this).children('span').text('+')
+	}
+	 
+	 $(this).next().slideToggle();
+	 });
+
+
+
+	 

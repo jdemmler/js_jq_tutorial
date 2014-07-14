@@ -108,15 +108,27 @@
 <section class="slider-demo">
 
 <h1>Demo</h1>
-
-<div class="cycle-slideshow">
-    <img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
-    <img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
-    <img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
-    <img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
-    <img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+<div class="cycle-slideshow" data-cycle-pause-on-hover="true">
+	<div class="cycle-overlay"></div>
+    <!-- prev/next links -->
+    <div class="cycle-prev"></div>
+    <div class="cycle-next"></div>
+    <img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailand"
+    data-cycle-title="Thailand" 
+        data-cycle-desc="Koh Tao"/>
+    <img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"
+    data-cycle-title="Pakistan" 
+        data-cycle-desc="Central Karakoram"/>
+    <img src="images/china.jpg" width="700" height="400" alt="winter riding in China"
+    data-cycle-title="China" 
+        data-cycle-desc="Central China"/>
+    <img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"
+      data-cycle-title="China" 
+        data-cycle-desc="Central China"/>
+    <img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"
+      data-cycle-title="Cambodia" 
+        data-cycle-desc="Central Cambodia"/>
 </div>
-
 </section><!-- end slider-demo -->
 
 <section class="tut-steps">
@@ -134,34 +146,50 @@
 
 <section class="code-examples">
 
-<article class="html">
-<h1>HTML<h1>
+<h1>HTML <span id="plus">+</span></h1>
 <pre class="language-markup">
-<code>&lt;div class="cycle-slideshow">
+<code class="language-markup">
+&lt;div class="cycle-slideshow">
 &lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
-    <img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
-    <img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
-    <img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
-    <img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
-</div>
-</code></pre>
-</article><!-- end html -->
+&lt;img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
+    &lt;img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
+    &lt;img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
+    &lt;img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+&lt;/div>
+</code>
+</pre>
 
+<h1>CSS <span id="plus">+</span></h1>
+<pre class="language-css">
+<code>
+.slider-demo h1{
+	color: #7c786a;	
+	font-size: 1.8em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;	
+	padding-bottom: 10px;
+}
+	
 
-<article class="css">
-<h1>CSS</h1>
-</article><!-- end css -->
+.cycle-slideshow {
+	padding-bottom: 30px;	
+}
 
+.cycle-slideshow img {
+	display: block;	
+	text-align: center;
+}
+</code>
+</pre>
 
-<article class="jquery">
-<h1>jQuery<h1>
+<h1>jQuery <span id="plus">+</span></h1>
+<pre class="language-markup">
+<code>
+&lt;p>No code required yay....</p>
+</code>
+</pre>
 
-
-
-</article><!-- end jquery -->
-
-<div class="clear">
-</div><!-- end clear -->
 
 </section><!-- end code-examples -->
 
@@ -230,22 +258,49 @@
 
 <section class="code-examples">
 
-<article class="html">
-<h1>HTML</h1>
-</article><!-- end html -->
+<h1>HTML <span id="plus">+</span></h1>
+<pre class="language-markup">
+<code class="language-markup">
+&lt;div class="cycle-slideshow">
+&lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
+&lt;img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
+    &lt;img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
+    &lt;img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
+    &lt;img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+&lt;/div>
+</code>
+</pre>
 
+<h1>CSS <span id="plus">+</span></h1>
+<pre class="language-css">
+<code>
+.slider-demo h1{
+	color: #7c786a;	
+	font-size: 1.8em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;	
+	padding-bottom: 10px;
+}
+	
 
-<article class="css">
-<h1>CSS</h1>
-</article><!-- end css -->
+.cycle-slideshow {
+	padding-bottom: 30px;	
+}
 
+.cycle-slideshow img {
+	display: block;	
+	text-align: center;
+}
+</code>
+</pre>
 
-<article class="jquery">
-<h1>jQuery</h1>
-</article><!-- end jquery -->
-
-<div class="clear">
-</div><!-- end clear -->
+<h1>jQuery <span id="plus">+</span></h1>
+<pre class="language-markup">
+<code>
+&lt;p>No code required yay....</p>
+</code>
+</pre>
 
 </section><!-- end code-examples -->
 
@@ -310,25 +365,51 @@
 
 <section class="code-examples">
 
-<article class="html">
-<h1>HTML</h1>
-</article><!-- end html -->
+<h1>HTML <span id="plus">+</span></h1>
+<pre class="language-markup">
+<code class="language-markup">
+&lt;div class="cycle-slideshow">
+&lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
+&lt;img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
+    &lt;img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
+    &lt;img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
+    &lt;img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+&lt;/div>
+</code>
+</pre>
+
+<h1>CSS <span id="plus">+</span></h1>
+<pre class="language-css">
+<code>
+.slider-demo h1{
+	color: #7c786a;	
+	font-size: 1.8em;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;	
+	padding-bottom: 10px;
+}
+	
+.cycle-slideshow {
+	padding-bottom: 30px;	
+}
+
+.cycle-slideshow img {
+	display: block;	
+	text-align: center;
+}
+</code>
+</pre>
+
+<h1>jQuery <span id="plus">+</span></h1>
+<pre class="language-markup">
+<code>
+&lt;p>No code required yay....</p>
+</code>
+</pre>
 
 
-<article class="css">
-<h1>CSS</h1>
-</article><!-- end css -->
-
-
-<article class="jquery">
-<h1>jQuery</h1>
-</article><!-- end jquery -->
-
-<div class="clear">
-</div><!-- end clear -->
-
-</section><!-- end code-examples -->
-
+</section><!-- end code-examples -->	
 </section><!-- end tut1-section -->
 </div><!-- end inner-tut -->
 
