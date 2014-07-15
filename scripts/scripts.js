@@ -22,6 +22,31 @@ $(function () {
 }); 
 
 
+$(document).ready(function(){
+
+var navVisible = false;
+
+	 $('.header').css('display','none');
+	 console.log('hidden')
+	 
+	 $(window).scroll(function(e) {
+    	var pos = $(window).scrollTop();
+		console.log(pos+"pos")	
+
+		if((pos > 183)&&(navVisible==false))
+		{ $('.header').css('display','initial');
+			console.log('not hidden')
+
+			}else{
+		
+		 $('.header').css('display','none');
+			}
+		
+		});
+	
+	});
+
+
 // end sticky header...
 
 
