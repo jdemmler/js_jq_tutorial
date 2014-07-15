@@ -140,11 +140,11 @@
                <li>Place downloaded Cycle2 plugin in jquery folder which is connected to your source code and then include the Cycle2 plugin using the scripts tags you have just saved. Please ensure the Cycle2 script tag is placed under the jQuery script tag, which is placed right before <span class="code">&lt;&#47;body&gt;</span> tag. </li>
                <pre class="language-markup">
                 <code class="language-markup">
-                    &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script>
-                    &lt;script src="scripts/jquery.cycle2.min.js">&lt;/script>
+&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script>
+&lt;script src="scripts/jquery.cycle2.min.js">&lt;/script>
                 </code>
             </pre>
-            <li>This great plugin not only allows you to place in a image slider with no jQuery code, it also enables you to add in description overlays, next and prevous arrows and allows you to stop the slider on hover. All these have been implemented to the above demo and the CSS and HTML code shows how it is all achieved.</li>
+            <li>This great plugin not only allows you to place in an image slider with no jQuery code, it also enables you to add in description overlays, next and previous arrows and allows you to stop the slider on hover. All these have been implemented to the above demo and the CSS and HTML code shows how it is all achieved.</li>
             <li>Code HTML/CSS. (see below)</li>
             <li>No JavaScript/jQuery required.</li>
         </ol>
@@ -156,12 +156,26 @@
         <h1>HTML <span id="plus">+</span></h1>
         <pre class="language-markup">
             <code class="language-markup">
-                &lt;div class="cycle-slideshow">
-                &lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
-                &lt;img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
-                &lt;img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
-                &lt;img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
-                &lt;img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
+            
+             &lt;div class="cycle-slideshow" data-cycle-pause-on-hover="true">
+                   &lt;div class="cycle-overlay"> &lt;/div>
+                   &lt;div class="cycle-prev"> &lt;/div>
+                   &lt;div class="cycle-next"> &lt;/div>
+                   &lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailand"
+                   data-cycle-title="Thailand" 
+                   data-cycle-desc="Koh Tao"/>
+                   &lt;img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"
+                   data-cycle-title="Pakistan" 
+                   data-cycle-desc="Central Karakoram"/>
+                   &lt;img src="images/china.jpg" width="700" height="400" alt="winter riding in China"
+                   data-cycle-title="China" 
+                   data-cycle-desc="Central China"/>
+                   &lt;img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"
+                   data-cycle-title="China" 
+                   data-cycle-desc="Central China"/>
+                   &lt;img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"
+                   data-cycle-title="Cambodia" 
+                   data-cycle-desc="Central Cambodia"/>
                 &lt;/div>
             </code>
         </pre>
@@ -169,24 +183,63 @@
         <h1>CSS <span id="plus">+</span></h1>
         <pre class="language-css">
             <code>
-                .slider-demo h1{
-                color: #7c786a;	
-                font-size: 1.8em;
-                text-align: center;
-                font-weight: bold;
-                font-family: 'Merriweather', serif;	
-                padding-bottom: 10px;
-            }
-            
+.slider-demo {
+	margin-bottom: 30px;
+}
 
-            .cycle-slideshow {
-            padding-bottom: 30px;	
-        }
+.slider-demo h1{
+	text-align: center;
+	font-family: 'Merriweather', serif;	
+	color:#eb6e44;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
 
-        .cycle-slideshow img {
-        display: block;	
-        text-align: center;
-    }
+.cycle-slideshow {
+	margin: 0 auto;
+	width: 700PX;
+}
+
+.cycle-prev, .cycle-next { 
+	position: absolute; 
+	top: 0; 
+	width: 8%; 
+	opacity: 0; 
+	filter: alpha(opacity=0); 
+	z-index: 800; 
+	height: 100%; 
+	cursor: pointer; 
+}
+
+.cycle-prev { 
+	left: 0;  
+	background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;
+}
+
+.cycle-next { 
+	right: 0; 
+	background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;
+}
+
+.cycle-prev:hover, 
+.cycle-next:hover { 
+	opacity: .7; 
+	filter: alpha(opacity=70) 
+}
+
+.cycle-overlay { 
+	font-family: tahoma, arial;
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	z-index: 600;
+	background: #7c786a; 
+	color: white; 
+	padding: 15px; 
+	opacity: .7;
+}
 </code>
 </pre>
 
