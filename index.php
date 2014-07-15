@@ -15,7 +15,7 @@
 
 <body id="back-top">
 
-    <header id="header" class="header">
+    <header>
         <div class="inner-header">
 
             <a href="#back-top"><div class="logo">
@@ -29,10 +29,38 @@
 
             <nav>
                <ul>
-                <li><a class="current" href="#tut1">T<br>One</a></li>
-                <li><a class="current" href="#tut2">T<br>Two</a></li>
-                <li><a class="current" href="#tut3">T<br>Three</a></li>
-                <li><a class="current" href="#contact">Contact</a></li>
+                <li><a  href="#tut1">T<br>One</a></li>
+                <li><a  href="#tut2">T<br>Two</a></li>
+                <li><a  href="#tut3">T<br>Three</a></li>
+                <li><a  href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="clear">
+        </div><!-- end clear -->
+
+    </div><!-- end inner-header -->
+
+</header>
+
+ <header id="header" class="header">
+        <div class="inner-header">
+
+            <a href="#back-top"><div class="logo">
+                <h1>JavaScript & jQuery</h1>
+
+                <div id="infinity-logo"></div>
+
+                <h2>Continuous Learning</h2>
+
+            </div></a><!-- end logo -->
+
+            <nav>
+               <ul>
+                <li><a  href="#tut1">T<br>One</a></li>
+                <li><a  href="#tut2">T<br>Two</a></li>
+                <li><a  href="#tut3">T<br>Three</a></li>
+                <li><a  href="#contact">Contact</a></li>
             </ul>
         </nav>
 

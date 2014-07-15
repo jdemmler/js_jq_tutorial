@@ -38,10 +38,6 @@ header {
 	padding-top: 10px;	
 }
 
-/*.inner-header, h1, h2 {
-	padding-left: 15px;	
-	}*/
-
 	#infinity-logo {
 		position: relative;
 		width: 180px;
@@ -79,7 +75,7 @@ header {
 	}
 	
 	nav {
-		height: 178px;
+		
 		width: 700px;
 		float: right;
 		padding-top: 10px;
@@ -123,3 +119,122 @@ header {
 	}
 
 /* end logo styles */
+
+
+
+/* fixed header styles */
+
+header {
+	width: 100%;
+	margin: 0 auto;	
+	background-color: #8dcdc1;
+	border-bottom: dashed 3px #eb6e44;
+}
+
+/* end header styles */
+
+/* inner header styles */
+
+.inner-header {
+	max-width: 1400px;
+	min-width: 900px;	
+	margin: 0 auto;
+}
+
+/*end inner header styles */
+
+/* logo styles */
+
+.logo {
+	padding: 10px;	
+	float: left;		
+}
+
+.logo h1 {
+	padding-bottom: 10px;	
+}
+
+.logo h2 {
+	padding-top: 10px;	
+}
+
+.header	#infinity-logo {
+		position: relative;
+		width: 90px;
+		height: 40px;
+	}
+
+.header	#infinity-logo:before,
+.header	#infinity-logo:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width:	40px;
+		height: 40px;
+		border: 5px solid #EB6E44;
+		-moz-border-radius: 50px 50px 0 50px;
+		border-radius: 50px 50px 0 50px;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+.header	#infinity-logo:after {
+		left: auto;
+		right: 0;
+		-moz-border-radius: 50px 50px 50px 0;
+		border-radius: 50px 50px 50px 0;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
+.header	nav {
+		width: 700px;
+		float: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 200px;
+	}
+
+.header	nav li {
+		display: inline;	
+	}
+
+.header	nav a {
+		display: block;
+		float: left;
+		text-decoration: none;
+		background-color: #d3e397;
+		color: #7c786a;
+		width: 100px;
+		text-align: center;
+		height: 100px !important;
+		border-radius: 50%;
+		margin-right: 10px;
+		padding-top: 20px;
+		border: solid 3px #eb6e44;
+	}
+
+.header	li:nth-child(4) > a {
+		margin-right: 0;
+		padding-top: 40px;
+	}
+
+.header	.active {
+		color: #fff !important;
+		text-decoration: underline !important;
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+/* end logo styles */
+
