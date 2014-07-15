@@ -100,6 +100,7 @@
 	font-size: 1.3em;
 	line-height: 1.2em;
 	padding-bottom: 20px;
+	padding-top: 40px;
 }
 
 .tut-intro p {
@@ -120,9 +121,11 @@
 .tut-steps h1 {
 	text-align: center;
 	font-family: 'Merriweather', serif;	
-	color:#7c786a;
+	color:#eb6e44;
 	font-size: 1.8em;
 	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 
@@ -142,7 +145,7 @@
 
 /* end step styles */
 
-/* code-examples */
+/* code-example styles */
 
 .code-examples {
 	padding-bottom: 20px;
@@ -157,8 +160,16 @@
 	font-weight: bold;
 }
 
+.code-examples h1, .plus {
+	cursor: pointer;	
+}
 
-/* end code example */
+.code {
+	color: #eb6e44;
+}
+
+/* end code example styles*/
+
 
 /* slider demo styles */
 
@@ -167,24 +178,46 @@
 }
 
 .slider-demo h1{
-	color: #7c786a;	
-	font-size: 1.8em;
 	text-align: center;
-	font-weight: bold;
 	font-family: 'Merriweather', serif;	
-	padding-bottom: 10px;
+	color:#eb6e44;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 	
-
 .cycle-slideshow {
 	margin: 0 auto;
 	width: 700PX;
 }
 
-.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
-.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+.cycle-prev, .cycle-next { 
+	position: absolute; 
+	top: 0; 
+	width: 8%; 
+	opacity: 0; 
+	filter: alpha(opacity=0); 
+	z-index: 800; 
+	height: 100%; 
+	cursor: pointer; 
+}
+
+.cycle-prev { 
+	left: 0;  
+	background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;
+}
+
+.cycle-next { 
+	right: 0; 
+	background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;
+}
+
+.cycle-prev:hover, 
+.cycle-next:hover { 
+	opacity: .7; 
+	filter: alpha(opacity=70) 
+}
 
 /* overlay */
 .cycle-overlay { 
@@ -193,11 +226,14 @@
 	bottom: 0; 
 	width: 100%; 
 	z-index: 600;
-    background: #7c786a;; 
+    background: #7c786a; 
 	color: white; 
 	padding: 15px; 
 	opacity: .7;
 }
+
+
+
 
 /* end demo styles */
 
