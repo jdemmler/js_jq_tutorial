@@ -521,8 +521,8 @@
 
                 <div class="tut-title">
                     <h1>Contact</h1>
+                   
                     <h2>It is all about your Contacts</h2>
-
 
                     <div class="clear">
                     </div><!-- end clear -->
@@ -534,8 +534,33 @@
         <div class="inner-tut">
 
             <section class="tut-intro">
-                <p>Send me a message I am always happy to chat</p>
+            
+             <div class="contact-form">
+                <p>Send me a message I am always happy to chat:</p>
+                
+                <form action="../adelaide/thank_you.php" method="post" name="more_info" class="more_info" id="more-info">
 
+			<fieldset class="general_info">
+				<label for="input_name">Name: </label>
+				<input name="input_name" type="text" id="input_name">
+				<label for="input_email">Email: </label>
+				<input name="input_email" type="email" id="input_email">
+			</fieldset>
+            
+            <fieldset class="add_info">
+				<h1>Please let us know if you would like any other additional information:</h1>
+				<textarea name="additional_info" id="additional_info"></textarea>
+
+			</fieldset>
+            
+            
+			<fieldset class="submit">
+				<input name="btn_submit" type="submit" id="btn_submit" value="Submit">
+			</fieldset>
+            
+            </form>
+                
+ </div><!-- end contact-form -->
             </section><!-- end tut-intro -->
 
             <section class="form">
@@ -555,14 +580,15 @@
     <div class="inner-footer">
         <p>For Educational Purposes Only</p>
         <p>&copy; Jo Demmler</p>
-        <a href="http://en.wikipedia.org/wiki/JavaScript" target_"blank">Copy Credit</a> 
-        <a href="#">Contact</a>
+        <p><a href="http://en.wikipedia.org/wiki/JavaScript" target_"blank">Copy Credit</a></p> 
 
         <div class="back">
-            <a href="#back-top">
-            </a>
+            <p><a href="#back-top">back
+            </a></p>
         </div><!-- end back-top -->
-
+        
+  <div class="clear">
+        </div><!-- end clear -->
     </div><!--"end inner-footer" -->
 </footer>
 

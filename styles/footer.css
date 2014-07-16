@@ -1,6 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
 
+footer {
+	background-color: #8dcdc1;
+	color: #7c786a;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+.inner-footer {
+	min-width: 960px;
+	max-width: 1300px;	
+	margin: 0 auto;
+}
+
+.inner-footer  p {
+	float: left;
+	width: -moz-calc( (100% / 4) - ((0px * 3) / 4) );
+		width: -webkit-calc( (10% / 4) - ((0px *3) / 4) );
+		width: calc( (100% / 4) - ((0px * 3) / 4) );	
+}
+
+.back {
+	text-align: right;
+}
+
+footer p:nth-child(2) {
+	text-align: center;
+}
+
+footer p:nth-child(3) {
+	text-align: center;
+}
+
+.inner-footer a {
+	text-decoration: none;
+	color: #7c786a;	
+}
+
  .clear {
 clear: both;
   }
