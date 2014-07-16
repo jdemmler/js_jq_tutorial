@@ -74,5 +74,5 @@ var exampleReveal = $('.code-examples h1');
 
 // light box example.....
 
-$('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", height:"75%", previous:"previous", next:"next"});
+$('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", height:"75%", previous:"previous", next:"next", close:'close'});
 	 
