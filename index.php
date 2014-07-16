@@ -108,10 +108,6 @@
         <header>
             <div class="inner-header">
 
-                <div class="tut-logo">
-                    <p>T<br>One</p>
-                </div><!-- end tut-logo -->
-
                 <div class="tut-title">
                     <h1>Image Sliders</h1>
                     <h2>It is all about the images</h2>
@@ -297,13 +293,10 @@
     <div class="anchor scrollto" id="tut2">
         <header>
             <div class="inner-header">
-                <div class="tut-logo">
-                    <p>T<br>Two</p>
-                </div><!-- end tut-logo -->
 
                 <div class="tut-title">
-                    <h1>Sticky Navigation Bars</h1>
-                    <h2>It is all about the Nav Bar</h2>
+                    <h1>More Image Options</h1>
+                    <h2>It is all about the images and how to display them</h2>
 
                     <div class="clear">
                     </div><!-- end clear -->
@@ -322,11 +315,23 @@
 
             </section><!-- end tut-intro -->
 
-            <section class="sticky-demo">
+            <section class="lightbox-demo">
 
                 <h1>Demo</h1>
+                
+             <p></p>
+             
+             <div class"lightbox">
+             <a href="images/lunch-mountains.jpg" class="gallery1">
+             <img src="images/lunch-mountains-150.jpg" width="150" height="150" alt="lunch in the mountains of Pakistan"></a>
+             <a href="images/glacier-crossing.jpg" class="gallery1"><img src="images/glacier-crossing-150.jpg" width="150" height="150" alt="Crossing Baltoro Glacier Pakistan"></a>
+             <a href="images/friends-pakistan.jpg" class="gallery1"><img src="images/friends-pakistan-150.jpg" width="150" height="150" alt="Friends in the Mountains of Pakistan"></a>
+             <a href="images/group-shot-pakistan.jpg" class="gallery1"><img src="images/group-shot-pakistan-150.jpg" width="150" height="150" alt="Friends in the Mountains of Pakistan"></a>
+             <a href="images/k2.jpg" class="gallery1"><img src="images/k2-150.jpg" width="150" height="150" alt="Group shot at K2"></a> 
 
-                <p>You may have noticed the sticky navigation bar already in use on this site. Please return to the top of the pag and notice as you scroll down the page at a certain point the navigation bar will stick to the top of the page and be visible while you scroll through the site and indicate which section you are on</p>
+             </div><!-- end lightbox -->
+
+                
 
             </section><!-- end sticky-demo -->
 
@@ -408,10 +413,7 @@
     <div class="anchor scrollto" id="tut3">
         <header>
             <div class="inner-header">
-                <div class="tut-logo">
-                    <p>T<br>Three</p>
-                </div><!-- end tut-logo -->
-
+  
                 <div class="tut-title">
                     <h1>Parallax Scrolling</h1>
                     <h2>It is all about the Scroll</h2>
@@ -515,9 +517,6 @@
     <div class="anchor scrollto" id="contact">
         <header>
             <div class="inner-header">
-                <div class="tut-logo">
-                    <p>Contact</p>
-                </div><!-- end tut-logo -->
 
                 <div class="tut-title">
                     <h1>Contact</h1>
@@ -597,6 +596,8 @@
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts/jquery.colorbox-min.js"></script>
+<script src="scripts/jquery.colorbox.js"></script>
 <script src="scripts/jquery.easing.min.js"></script>
 <script src="scripts/jquery.stickyNavbar.min.js"></script>
 <script src="scripts/jquery.cycle2.min.js"></script>

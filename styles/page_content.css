@@ -65,20 +65,7 @@
 
 /* tutorial header styles */
 
-.tut-logo {
-	float: left;
-	background-color: #d3e397;
-	color: #7c786a;
-	text-align: center;
-	height: 158px;
-	width: 158px;
-	border-radius: 50%;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-top: 50px;
-	border: solid 3px #eb6e44;
-}
+
 
 .tut-title {
 	text-align: center;
@@ -259,11 +246,29 @@
 
 /* end sticky demo styles */
 
+/* contact styles */
+
 .contact-form p	{
 	text-align: center;
+	padding-bottom: 20px;
+}
+
+.general_info {
+	padding
+}
+
+.general_info input {
+	width: 250px;
 }
 
 
-/* contact styles */
+.general_info, .add_info {
+	width: 700px;
+	margin: 0 auto;
+	
+}
+
+
+
  
  
