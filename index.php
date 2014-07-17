@@ -20,11 +20,9 @@
         <div class="inner-header">
 
             <a href="#back-top"><div class="logo">
-                <h1>JavaScript & jQuery</h1>
+                <h1>jQuery</h1>
 
                 <div id="infinity-logo"></div>
-
-                <h2>Continuous Learning</h2>
 
             </div></a><!-- end logo -->
 
@@ -33,9 +31,12 @@
                 <li><a  href="#tut1"><span class="bt">T</span><br>One</a></li>
                 <li><a  href="#tut2"><span class="bt">T</span><br>Two</a></li>
                 <li><a  href="#tut3"><span class="bt">T</span><br>Three</a></li>
-                <li><a  href="#contact">Contact</a></li>
+                <li><a  href="#contact"><span class="icon-envelope"></span></a></li>
             </ul>
         </nav>
+        
+        
+       
 
         <div class="clear">
         </div><!-- end clear -->
@@ -48,20 +49,18 @@
         <div class="inner-header">
 
             <a href="#back-top"><div class="logo">
-                <h1>JavaScript & jQuery</h1>
+                <h1>jQuery</h1>
 
                 <div id="infinity-logo"></div>
-
-                <h2>Continuous Learning</h2>
 
             </div></a><!-- end logo -->
 
             <nav>
                <ul>
-                <li><a  href="#tut1">T<br>One</a></li>
-                <li><a  href="#tut2">T<br>Two</a></li>
-                <li><a  href="#tut3">T<br>Three</a></li>
-                <li><a  href="#contact">Contact</a></li>
+                <li><a  href="#tut1"><span class="big-text">T</span><br>One</a></li>
+                <li><a  href="#tut2"><span class="big-text">T</span><br>Two</a></li>
+                <li><a  href="#tut3"><span class="big-text">T</span><br>Three</a></li>
+                <li><a  href="#contact"><span class="icon-envelope"></span></a></li>
             </ul>
         </nav>
 
@@ -98,7 +97,8 @@
     </section><!-- end inner-home -->
 
     <div class="back">
-        <a href="#back-top">Back</a>
+        <a href="#back-top">
+         <span class="icon-arrow-up"></span></a>
     </div><!-- end back-top -->
 </main><!-- end home -->
 
@@ -110,11 +110,12 @@
             <div class="inner-header">
 
                 <div class="tut-title">
+                    <h1><span class="tut-number">T<br>one</span></h1> 
                     <h1>Image Sliders</h1>
                     <h2>It is all about the images</h2>
-
+                    
                     <div class="clear">
-                    </div><!-- end clear -->
+        </div><!-- end clear -->
 
                 </div><!-- end tut-title -->
 
@@ -124,7 +125,7 @@
         <div class="inner-tut">
 
             <section class="tut-intro">
-                <p> Everyone loves images - pretty pictures, graphics, product photos! Images help with engagement, reeling the customer stick araound a little longer. And what better way to showcase your images than with a fancy image slider/carousel. As they say an image worth a thousand words.</p>
+                <p> Everyone loves images - pretty pictures, graphics, product photos! Images help with engagement, reeling the user to stick araound a little longer. And what better way to showcase your images than with a fancy image slider/carousel. As they say an image is worth a thousand words.</p>
 
                 <p>The great news is nothing can be easier. Forget all that fancy JavaScript and jquery code we can pop in a creative and great looking slider with a few simple steps.</p>
 
@@ -281,12 +282,14 @@
 </section><!-- end tut1-section -->
 </div><!-- end inner-tut -->
 </div>
-</main><!-- end tutorial -->
-
 <div class="back">
     <a href="#back-top">
+    <span class="icon-arrow-up"></span>
     </a>
 </div><!-- end back-top -->
+</main><!-- end tutorial -->
+
+
 
 <!-- Tutorial 2 -->
 
@@ -296,6 +299,7 @@
             <div class="inner-header">
 
                 <div class="tut-title">
+                <h1><span class="tut-number">T<br>two</span></h1>
                     <h1>More Image Options</h1>
                     <h2>It is all about the images and how to display them</h2>
 
@@ -316,7 +320,7 @@
             <section class="lightbox-demo">
 
                 <h1>Demo</h1>
-                <p>By clicking on an image it will show the image in the centre of the page while the rest of the window is dimmed out. Allowing the user to view images in a clean crisper environment if they choose to.<p>
+                <p>By clicking on an image it will show the image in the centre of the page while the rest of the window is dimmed out. Allowing the user to view images in a clean crisper environment if they choose to.</p>
              
              <div class="lightbox">
              <a href="images/lunch-mountains.jpg" class="gallery1">
@@ -327,8 +331,6 @@
              <a href="images/k2.jpg" class="gallery1"><img src="images/k2-150.jpg" width="150" height="150" alt="Group shot at K2"></a> 
 
              </div><!-- end lightbox -->
-
-                
 
             </section><!-- end lightbox-demo -->
 
@@ -448,6 +450,7 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
 
 <div class="back">
     <a href="#back-top">
+    <span class="icon-arrow-up"></span>
     </a>
 </div><!-- end back-top -->
 </div><!-- end anchor & scrollto -->
@@ -461,8 +464,9 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
             <div class="inner-header">
   
                 <div class="tut-title">
-                    <h1>Parallax Scrolling</h1>
-                    <h2>It is all about the Scroll</h2>
+                <h1><span class="tut-number">T<br>three</span></h1>
+                    <h1>Accodion</h1>
+                    <h2>It is all about the space</h2>
 
                     <div class="clear">
                     </div><!-- end clear -->
@@ -475,26 +479,58 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
         <div class="inner-tut">
 
             <section class="tut-intro">
-                <p>It seems people enjoy to scroll, hence the popularity of one page websites these days or readers just like information concenrtared in certain areas reducing browsing time. As they say time is of the essence. What ever the reason one page websites are popular! And hence to add greater effect to one pagers parallax scrolling websites are a hot techinque at the moment.</p>
+                <p>You may have noticed the accodion feature already in use on this site. At the bottom of each of the steps section the code is broken down into HTML, CSS and jQuery. To ensure the entire page isn't taken up with code it has been displayed in an accodion, this allows users to see each section as they want them and they didn't get too overwhelmed by copy on a page or in this case a lot of coding!.</p>
+                <p>Simply put an accodion displays collapsible content panels for presenting inforamtion in a limited amount of space.</p>
 
-                <p>So lets see how it goes down.</p>
+                <p>Lets see how it is done.</p>
 
             </section><!-- end tut-intro -->
 
-            <section class="parallax-demo">
+         <div class="accodion-head">
 
-            </section><!-- end sticky-demo -->
+                <h1>Demo</h1>
+                <p></p>
+                
+                </div><!-- end accodion-head -->
+                
+                <section class="accodion-demo">
+                <h1>Red Centre <span id="plus">+</span></h1>
+                <p> You probably know about the red monolith in Australia’s Red Centre. </p>
+
+					<p> You may know it’s sacred to the Aboriginal people here, and that it turns some spectacular colours at sunrise and sunset. You might not know that you can experience it through Aboriginal eyes, or that there are many other sacred and breathtaking sites here in Australia’s vast centre.</p> 
+
+						<p>Uluṟu’s cousin Kata Tjuṯa is just 40 kilometres away and you’ll find the awe-inspiring Kings Canyon not far from Alice Springs. You might not realise that this landscape has green vegetation and lush waterholes as well as dusty red roads and huge slabs of rock.  And what you won’t really understand until you get here is the magic, majesty, silence and splendid isolation of Australia’s Red Centre.</p>
+                        
+                        <h1>Sydney <span id="plus">+</span></h1>
+                        <p> Discover Sydney, Australia’s famous harbour city and the capital of New South Wales.</p>
+
+						<p> Plan your Sydney holiday using our three-day itinerary, which takes in the attractions around Sydney Harbour, beaches and inner-city precincts. Read up on the World Heritage-listed Blue Mountains and the Six Foot Track bushwalk.</p>
+
+						<p> Learn about other places to visit in New South Wales and scenic journeys you can take from Sydney. Drive the Pacific Coast Touring Route north to Brisbane past the Hunter Valley, Port Stephens and bohemian Byron Bay. Or head south to Melbourne via the pure white beaches of Jervis Bay. </p>
+                        
+                        <h1>Great Barrier Reef <span id="plus">+</span></h1>
+                
+						<p> You can swim, snorkel, dive and sail the World Heritage-listed Great Barrier Reef, a living masterpiece so big it can be seen from outer space.</p>
+
+						<p> It stretches more than 2,000 kilometres along the Queensland coast, from the mainland towns of Port Douglas to Bundaberg. Hop between the pristine, palm-fringed islands on top, then explore the rainbow-coloured coral islands and marine life below.</p>
+
+						<p> Check out the technicolour coral and marine life through a glass-bottomed boat from coastal hubs such as Cairns, Port Douglas, Townsville, Bundaberg, Rockhampton, Mackay, Mission Beach and Airlie Beach. Or experience the reef’s smooth seas, deep drop offs, underwater tunnels and caves with a dive school or day trip operator.Snorkel or dive the edge of the continental shelf at Agincourt Reef from Cairns, explore the SS Yongala shipwreck from Townsville and Magnetic Island and the Llewellyn shipwreck from Mackay. </p> 
+                        
+                        <h1>Credits <span id="plus">+</span></h1>
+                        <p><id="credit"><a href="http://www.australia.com/" target="_blank"> Copy credits Tourism Australia</p></a>
+                
+                
+                </section><!-- end accodion demo -->
 
             <section class="tut-steps">
 
                 <h1>Steps</h1>
                 <ol>
-                   <li>Find pretty images you want to showcase (for this example we have used 5) and size to fit correctly within your slider.</li>
-                   <li><a href="http://jquery.malsup.com/cycle2/" target ="_blank"> Download Cycle2 plugin</a>please follow link.</li>
-                   <li>Place downloaded Cycle2 plugin in jquery folder which is connected to your source code and then include the Cycle2 plugin using the scripts tags you have just saved. Please ensure the Cycle2 script tag. 
-                    
-                    <li>Code HTML/CSS. (see below)</li>
-                    <li>No JavaScript/jQuery required</li>
+                   <li>Get your copy together and break it down into sections you would like to show and hide.</li>
+                   <li>There is no plugin used for this script - but don't worry we just need to write a small section of jQuery.</li>                    
+                    <li>Code HTML (see below)</li>
+                       <li>CSS - The css for the initial layout of the accodion is up to you, we have stuck with the colour themes of the tutorial.</li>
+                    <li>jQuery (see below)</li>
                 </ol>
 
             </section><!-- end tut-steps -->
@@ -505,36 +541,61 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
                 <h1>HTML <span id="plus">+</span></h1>
                 <pre class="language-markup">
                     <code class="language-markup">
-                        &lt;div class="cycle-slideshow">
-                        &lt;img src="images/thailand.jpg" width="700" height="400" alt="boats at sunset in Thailan"/>
-                        &lt;img src="images/pakistan.jpg" width="700" height="400" alt="trekking in the mountains"/>
-                        &lt;img src="images/china.jpg" width="700" height="400" alt="winter riding in China"/>
-                        &lt;img src="images/china-desert.jpg" width="700" height="400" alt="desert riding in China"/>
-                        &lt;img src="images/cambodia.jpg" width="700" height="400" alt="riding in Cambodia"/>
-                        &lt;/div>
+&lt;section class="accodion-demo">
+&lt;h1>Red Centre &ltspan id="plus">+&lt/span>&lt;/h1>
+&lt;p> You probably know about the red monolith in Australia’s Red Centre. &lt;/p>
+
+&lt;p> You may know it’s sacred to the Aboriginal people here, and that it turns some spectacular colours at sunrise and sunset. You might not know that you can experience it through Aboriginal eyes, or that there are many other sacred and breathtaking sites here in Australia’s vast centre.&lt;/p> 
+
+&lt;p>Uluṟu’s cousin Kata Tjuṯa is just 40 kilometres away and you’ll find the awe-inspiring Kings Canyon not far from Alice Springs. You might not realise that this landscape has green vegetation and lush waterholes as well as dusty red roads and huge slabs of rock.  And what you won’t really understand until you get here is the magic, majesty, silence and splendid isolation of Australia’s Red Centre.&lt;/p>
+                        
+&lt;h1>Sydney &ltspan id="plus">+&lt/span>&lt;/h1>
+&lt;p> Discover Sydney, Australia’s famous harbour city and the capital of New South Wales.&lt;/p>
+
+&lt;p> Plan your Sydney holiday using our three-day itinerary, which takes in the attractions around Sydney Harbour, beaches and inner-city precincts. Read up on the World Heritage-listed Blue Mountains and the Six Foot Track bushwalk.&lt;/p>
+
+&lt;p> Learn about other places to visit in New South Wales and scenic journeys you can take from Sydney. Drive the Pacific Coast Touring Route north to Brisbane past the Hunter Valley, Port Stephens and bohemian Byron Bay. Or head south to Melbourne via the pure white beaches of Jervis Bay. &lt;/p>
+                        
+&lt;h1>Great Barrier Reef &lt;span id="plus">+&lt;/span>&lt;/h1>
+                
+&lt;p> You can swim, snorkel, dive and sail the World Heritage-listed Great Barrier Reef, a living masterpiece so big it can be seen from outer space.&lt;/p>
+
+&lt;p> It stretches more than 2,000 kilometres along the Queensland coast, from the mainland towns of Port Douglas to Bundaberg. Hop between the pristine, palm-fringed islands on top, then explore the rainbow-coloured coral islands and marine life below.&lt;/p>
+
+&lt;p> Check out the technicolour coral and marine life through a glass-bottomed boat from coastal hubs such as Cairns, Port Douglas, Townsville, Bundaberg, Rockhampton, Mackay, Mission Beach and Airlie Beach. Or experience the reef’s smooth seas, deep drop offs, underwater tunnels and caves with a dive school or day trip operator.Snorkel or dive the edge of the continental shelf at Agincourt Reef from Cairns, explore the SS Yongala shipwreck from Townsville and Magnetic Island and the Llewellyn shipwreck from Mackay. &lt;/p> 
+                        
+&lt;h1>Credits &ltspan id="plus">+&lt/span>&lt;/h1>
+&lt;p><id="credit">&lta href="http://www.australia.com/" target="_blank"> Copy credits Tourism Australia&lt;/p>&lt/a>
+                        
+&lt;/section><!-- end accodion demo -->  
+                        
                     </code>
                 </pre>
 
                 <h1>CSS <span id="plus">+</span></h1>
                 <pre class="language-css">
                     <code>
-                        .slider-demo h1{
-                        color: #7c786a;	
-                        font-size: 1.8em;
-                        text-align: center;
-                        font-weight: bold;
-                        font-family: 'Merriweather', serif;	
-                        padding-bottom: 10px;
-                    }
-                    
-                    .cycle-slideshow {
-                    padding-bottom: 30px;	
-                }
+.accodion-demo h1 {
+	background-color: #8dcdc1;
+	padding: 10px;
+	font-family: 'Merriweather', serif;	
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #fff5c3;
+	border-bottom: 2px solid #eb6e44;
+ 		}
 
-                .cycle-slideshow img {
-                display: block;	
-                text-align: center;
-            }
+.accodion-demo p {
+	padding-top: 10px;
+	color: #7c786a;
+	font-size: 1.3em;
+	line-height: 1.2em;
+		}
+
+.accodion-demo h1:hover {
+	background-color: #d3e397;
+	border-bottom: 2px dotted #eb6e44;	
+		}
         </code>
     </pre>
 
@@ -552,6 +613,7 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
 
 <div class="back">
     <a href="#back-top">
+    <span class="icon-arrow-up"></span>
     </a>
 </div><!-- end back-top -->
 </div><!-- end anchor & scrollto -->
@@ -587,14 +649,14 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
 
 			<fieldset class="general_info">
 				<label for="input_name">Name: </label>
-				<input name="input_name" type="text" id="input_name">
+				<input name="input_name" placeholder="Name" type="text" id="input_name" required>
 				<label for="input_email">Email: </label>
-				<input name="input_email" type="email" id="input_email">
+				<input name="input_email" placeholder="Email" type="email" id="input_email" required>
 			</fieldset>
             
             <fieldset class="add_info">
 				<h1>Please let us know if you would like any other additional information:</h1>
-				<textarea name="additional_info" id="additional_info"></textarea>
+				<textarea name="additional_info" placeholder="Message" id="additional_info" required></textarea>
 
 			</fieldset>
             
@@ -616,6 +678,7 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
 
         <div class="back">
             <a href="#back-top">
+            <span class="icon-arrow-up"></span>
             </a>
         </div><!-- end back-top -->
     </div><!-- end anchor & scrollto -->
@@ -628,7 +691,8 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
         <p><a href="http://en.wikipedia.org/wiki/JavaScript" target_"blank">Copy Credit</a></p> 
 
         <div class="back">
-            <p><a href="#back-top">back
+            <p><a href="#back-top">
+            <span class="icon-arrow-up"></span>
             </a></p>
         </div><!-- end back-top -->
         

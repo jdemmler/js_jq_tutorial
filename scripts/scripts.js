@@ -50,6 +50,8 @@ var navVisible = false;
 // end sticky header...
 
 
+
+
 // accordian code example.....
 
 
@@ -76,3 +78,27 @@ var exampleReveal = $('.code-examples h1');
 
 $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", height:"75%", previous:"previous", next:"next", close:'close'});
 	 
+// light box example...
+
+
+
+// accordian example.....
+
+
+$('.accodion-demo > pre').hide();
+
+var exampleReveal = $('.accodion-demo h1');
+ 
+ exampleReveal.click(function() {
+	 if ( $(this).children('span').text() =='+' ) {
+	 $(this).children('span').text('-') 
+	 
+	}else{
+	 $(this).children('span').text('+')
+	}
+	 
+	 $(this).next().slideToggle();
+	 });
+
+
+// end accordian...
