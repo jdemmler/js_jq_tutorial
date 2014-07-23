@@ -28,10 +28,10 @@
 
             <nav>
                <ul>
-                <li><a  href="#tut1"><span class="bt">T</span><br>One</a></li>
-                <li><a  href="#tut2"><span class="bt">T</span><br>Two</a></li>
-                <li><a  href="#tut3"><span class="bt">T</span><br>Three</a></li>
-                <li><a  href="#contact"><span class="icon-envelope"></span></a></li>
+                <li><a id="top1"><span class="bt">T</span><br>One</a></li>
+                <li><a id="top2"><span class="bt">T</span><br>Two</a></li>
+                <li><a  id="top3"><span class="bt">T</span><br>Three</a></li>
+                <li><a  id="top4"><span class="icon-envelope"></span></a></li>
             </ul>
         </nav>
         
@@ -433,12 +433,11 @@
 }                
     </code>
 </pre>
-
 <h1>jQuery <span id="plus">+</span></h1>
 <pre class="language-markup">
     <code>
 &lt;script>    
-$('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", height:"75%", previous:"previous", next:"next", close:'close'});
+$('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", height:"75%"});
 &lt;/script>
     </code>
 </pre>
@@ -609,7 +608,22 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
     <h1>jQuery <span id="plus">+</span></h1>
     <pre class="language-markup">
         <code>
-            &lt;p>No code required yay....</p>
+&lt;script>         
+$('.accodion-demo > .fold').hide();
+
+var exampleReveal = $('.accodion-demo h1');
+ 
+exampleReveal.click(function() {
+if ( $(this).children('span').text() =='+' ) {
+$(this).children('span').text('-') 
+	 
+}else{
+$(this).children('span').text('+')
+}
+	 
+$(this).next().slideToggle();
+});
+&lt;/script>
         </code>
     </pre>
 
@@ -718,6 +732,7 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
 <script src="scripts/jquery.easing.min.js"></script>
 <script src="scripts/jquery.stickyNavbar.min.js"></script>
 <script src="scripts/jquery.cycle2.min.js"></script>
+
 <script src="scripts/prism.js"></script>
 <script src="scripts/scripts.js"></script>
 </body>

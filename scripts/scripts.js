@@ -49,8 +49,42 @@ var navVisible = false;
 
 // end sticky header...
 
+// scroll to....
+
+var tOneHeader = $('#top1');
+
+tOneHeader.click(function() {
+	var x = $('#tut1');
+	var pos = x.position();
+	window.scrollTo( 0, pos.top-120 );
+	});
 
 
+var tOneHeader = $('#top2');
+
+tOneHeader.click(function() {
+	var x = $('#tut2');
+	var pos = x.position();
+	window.scrollTo( 0, pos.top-120 );
+	});
+	
+var tOneHeader = $('#top3');
+
+tOneHeader.click(function() {
+	var x = $('#tut3');
+	var pos = x.position();
+	window.scrollTo( 0, pos.top-120 );
+	});	
+	
+var tOneHeader = $('#top4');
+
+tOneHeader.click(function() {
+	var x = $('#contact');
+	var pos = x.position();
+	window.scrollTo( 0, pos.top-120 );
+	});	
+	
+// end scroll to....	
 
 // accordian code example.....
 
