@@ -495,29 +495,36 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
                 
                 <section class="accodion-demo">
                 <h1>Red Centre <span id="plus">+</span></h1>
+                <div class="fold">
                 <p> You probably know about the red monolith in Australia’s Red Centre. </p>
 
 					<p> You may know it’s sacred to the Aboriginal people here, and that it turns some spectacular colours at sunrise and sunset. You might not know that you can experience it through Aboriginal eyes, or that there are many other sacred and breathtaking sites here in Australia’s vast centre.</p> 
 
 						<p>Uluṟu’s cousin Kata Tjuṯa is just 40 kilometres away and you’ll find the awe-inspiring Kings Canyon not far from Alice Springs. You might not realise that this landscape has green vegetation and lush waterholes as well as dusty red roads and huge slabs of rock.  And what you won’t really understand until you get here is the magic, majesty, silence and splendid isolation of Australia’s Red Centre.</p>
+                        </div><!-- end fold -->
                         
                         <h1>Sydney <span id="plus">+</span></h1>
+                        <div class="fold">
                         <p> Discover Sydney, Australia’s famous harbour city and the capital of New South Wales.</p>
 
 						<p> Plan your Sydney holiday using our three-day itinerary, which takes in the attractions around Sydney Harbour, beaches and inner-city precincts. Read up on the World Heritage-listed Blue Mountains and the Six Foot Track bushwalk.</p>
 
 						<p> Learn about other places to visit in New South Wales and scenic journeys you can take from Sydney. Drive the Pacific Coast Touring Route north to Brisbane past the Hunter Valley, Port Stephens and bohemian Byron Bay. Or head south to Melbourne via the pure white beaches of Jervis Bay. </p>
+                        </div><!-- end fold -->
                         
                         <h1>Great Barrier Reef <span id="plus">+</span></h1>
-                
+ <div class="fold">               
 						<p> You can swim, snorkel, dive and sail the World Heritage-listed Great Barrier Reef, a living masterpiece so big it can be seen from outer space.</p>
 
 						<p> It stretches more than 2,000 kilometres along the Queensland coast, from the mainland towns of Port Douglas to Bundaberg. Hop between the pristine, palm-fringed islands on top, then explore the rainbow-coloured coral islands and marine life below.</p>
 
 						<p> Check out the technicolour coral and marine life through a glass-bottomed boat from coastal hubs such as Cairns, Port Douglas, Townsville, Bundaberg, Rockhampton, Mackay, Mission Beach and Airlie Beach. Or experience the reef’s smooth seas, deep drop offs, underwater tunnels and caves with a dive school or day trip operator.Snorkel or dive the edge of the continental shelf at Agincourt Reef from Cairns, explore the SS Yongala shipwreck from Townsville and Magnetic Island and the Llewellyn shipwreck from Mackay. </p> 
+                        </div><!-- end fold -->
                         
                         <h1>Credits <span id="plus">+</span></h1>
+                        <div class="fold">
                         <p><id="credit"><a href="http://www.australia.com/" target="_blank"> Copy credits Tourism Australia</p></a>
+                        </div><!-- end fold -->
                 
                 
                 </section><!-- end accodion demo -->

@@ -85,7 +85,7 @@ $('.gallery1').colorbox({rel:'gallery1', transition:"elastic", width:"75%", heig
 // accordian example.....
 
 
-$('.accodion-demo > pre').hide();
+$('.accodion-demo > .fold').hide();
 
 var exampleReveal = $('.accodion-demo h1');
  

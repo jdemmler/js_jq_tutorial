@@ -333,6 +333,10 @@
 	border-bottom: 2px solid #eb6e44;
 }
 
+.accodion-demo h1, .plus {
+	cursor: pointer;	
+}
+
 .accodion-demo p {
 	padding-top: 10px;
 	color: #7c786a;
