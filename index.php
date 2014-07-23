@@ -89,8 +89,8 @@
             <p><span class="first-word">Before starting</span> <span class="line">|</span>  To ensure all these new exciting and interactive web designs work we have a little bit of house keeping to do:</p>
 
             <ol>
-                <li>We need to download the basic jQuery link found at <a href"https://developers.google.com/speed/libraries/devguide" target="_blank">Google Developers.</a> Please click on the jQuery link which will take you to the snippet  of script which you will need to copy and paste into the bottom of your HTML page just above the body tag. This is bascially a link to ajQuery file that is hoste by a Content Delivery Network)</li> 
-                <li>Another option is to download the jQuery source code and store it in a file locally and then link to that file in your HTML file. You can download jQuery from <a href"http://jquery.com/" target="_blank">here.</a></li>
+                <li>We need to download the basic jQuery link found at <a href="https://developers.google.com/speed/libraries/devguide" target="_blank">Google Developers.</a> Please click on the jQuery link which will take you to the snippet  of script which you will need to copy and paste into the bottom of your HTML page just above the body tag. This is bascially a link to ajQuery file that is hoste by a Content Delivery Network)</li> 
+                <li>Another option is to download the jQuery source code and store it in a file locally and then link to that file in your HTML file. You can download jQuery from <a href="http://jquery.com/" target="_blank">here.</a></li>
             </ol>
 
         </article><!-- end article-hp" -->
