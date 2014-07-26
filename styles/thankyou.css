@@ -1,3 +1,36 @@
 @charset "utf-8";
 /* CSS Document */
 
+.tyb {
+	height: 100%;
+}
+
+.thankyou {
+	background-color: #fff5c3;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ty-container {
+	text-align: center;
+	background-color: #Eb6e44;
+	height: 400px;
+	width: 400px;
+	margin: 0px auto;
+	border-radius: 50%;
+	border: dotted 3px #7c786a;
+	
+}
+
+.ty-container p {
+	color: #7c786a;
+	font-size: 2em;
+	padding-top: 170px;
+}
+
+.ty-button {
+	text-decoration: none;
+}

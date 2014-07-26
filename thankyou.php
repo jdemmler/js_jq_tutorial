@@ -15,7 +15,7 @@
 <![endif]-->
 </head>
 
-<body id="back-top">
+<body class="tyb" id="back-top">
 
     <header>
         <div class="inner-header">
@@ -27,11 +27,6 @@
 
             </div></a><!-- end logo -->
 
-         
-        
-        
-       
-
         <div class="clear">
         </div><!-- end clear -->
 
@@ -39,11 +34,22 @@
 
 </header>
 
-<main>
+<div class="thankyou-wrapper">
 
-<p>Thank you for your message I will get back to you soon</p> 
+<main class="thankyou">
+
+<div class="ty-container">
+
+<a href="http://localhost/js_jq_tutorial/#back-top"><p>Thank you for your message I will get back to you soon</p>
+
+
+
+</div>
+<p class="ty-button">Back to Home</p></a> 
 
 </main>
+
+</div>
 
 <footer>
     <div class="inner-footer">
