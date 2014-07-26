@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" type="text/css" href="styles/animate.min.css">
     <link rel="stylesheet" type="text/css" href="styles/prism.css">
+    <link rel="shortcut icon" href="/js_jq_tutorial/images/favicon.ico"/>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Asset' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
@@ -666,7 +667,7 @@ $(this).next().slideToggle();
              <div class="contact-form">
                 <p>Send me a message I am always happy to chat:</p>
                 
-                <form action="../adelaide/thank_you.php" method="post" name="more_info" class="more_info" id="more-info">
+                <form action="/js_jq_tutorial/thankyou.php" method="post" name="more_info" class="more_info" id="more-info">
 
 			<fieldset class="general_info">
 				<label for="input_name">Name: </label>

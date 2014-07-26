@@ -353,6 +353,12 @@
 
 /* contact styles */
 
+.contact-form {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
 .contact-form p	{
 	text-align: center;
 	padding-bottom: 20px;
@@ -384,6 +390,10 @@
 	height: 200px;	
 }
 
+.submit {
+	margin: 0 auto;
+}
+
 .submit input[type="submit"] {
 width: auto;
 margin: 0 auto;
@@ -394,6 +404,7 @@ font-family: "merriweather", serif;
 font-size: 1em;
 line-height: 1.5em;
 color: #7c786a;
+cursor: pointer;
 }
 
 

@@ -130,6 +130,10 @@ header {
 		padding-top: 30px;
 		font-size: 5.5em;
 	}
+	
+#top1, #top2, #top3, #top4 {
+	cursor: pointer;
+}
 
 	
 
